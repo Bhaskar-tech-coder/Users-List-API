@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(184, 190, 158);
+  }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  /* border-radius: 2%; */
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  /* text-align: center; */
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10%;
+  box-shadow: 10px 10px 5px grey;
+}
